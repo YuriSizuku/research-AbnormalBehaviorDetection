@@ -1,0 +1,7 @@
+dataset:http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm
+
+(1)	选择数据集，对数据进行预处理（尺度归一化、去平均图、转化为Numpy数组）
+(2)	设计了一个卷积神经网络（bicnn），并用（1）处理的结果作为输入来训练此CNN，得到初始模型。
+(3)	用（2）的卷积神经网络对视频事件进行语义特征提取。
+(4)	分别用LSTM和GRU设计RNN网络(bilrnn、bigrnn)，RNN的输入的是（3）中的语义特征向量。
+(5)	训练RNN并进行分析

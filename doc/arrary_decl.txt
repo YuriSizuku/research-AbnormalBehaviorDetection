@@ -1,0 +1,9 @@
+ARRAY_NAME	DIM	DECLEARE
+rowx_train	(n,260,260,1)	图像帧
+rowy_train	(n,2)	图像帧的标签
+fea	(n,256)	图像帧的特征向量
+seqx_train	(n2,20,256)	RNN训练的数据
+seqy_trian	(n2,20,2)	RNN训练数据的标签
+---------------------------------------------------------------------------------------------------------------------
+(注1. rowx_train、rowy_train在CNN中训练命名为x_train、y_train；seqx_train、seqy_train在RNN训练中命名为x_train、y_train
+	2. n为训练数据数，n2与片段数和n有关)	

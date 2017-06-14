@@ -1,0 +1,14 @@
+名称	内容或功能
+bak/	历史版本备份
+demosrc/	实例程序源码
+intermediate/	中间数据生成
+model/	训练好的神经网络参数
+row/	原始数据输入
+script/	批处理脚本
+src/	           本项目源码
+src/prepdata.py	预处理、基本的输入输出
+src/adb_model_ini.py	本项目中神经网络的搭建、初始化
+src/bicnn_train.py	bicnn的训练
+src/bilrnn_train.py	LSTM和 GRU的birnn训练
+src/eval.py	训练效果评估
+src/try.py	测试
